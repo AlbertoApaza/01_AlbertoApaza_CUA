@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>formulario</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div style="position:relative;">
+		< <form action="/submit-form" method="POST">
+			<h2>Bienvenidos</h2>
+			<img src="img/Logo-VG_Tpt02.png" alt="Mi logo" class="logo">
+
+			<input type="radio" id="analisis" name="opciones" value="analisis">
+			<label for="analisis">Análisis de Sistema</label><br>
+
+			<input type="radio" id="produccion" name="opciones" value="produccion">
+			<label for="produccion">Producción Agraria</label><br>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo"><br>
+
+			<label for="apellidos">Apellidos:</label>
+			<input type="text" id="apellidos" name="apellidos" placeholder="Ingresa tus apellidos"><br>
+
+			<label for="edad">Edad:</label>
+			<input type="text" id="edad" name="edad" placeholder="Ingresa tu edad"><br>
+
+			<label for="correo">Correo electrónico:</label>
+			<input type="text" id="correo" name="correo" placeholder="Ingresa tu correo electrónico"><br>
+
+			<label for="contrasena">Contraseña:</label>
+			<input type="password" id="contrasena" name="contrasena" placeholder="Ingresa tu contraseña"><br>
+
+
+			<a href="/recuperar-contrasena">¿Olvidó su contraseña?</a>
+
+			<label for="privacy_policy_checkbox">
+				<input type="checkbox" name="privacy_policy" id="privacy_policy_checkbox">
+				Acepto la política de privacidad y los términos y condiciones
+			</label>
+
+			<input type="submit" value="REGISTRARME">
+			</form>
+	</div>
+</body>
+
+</html>
